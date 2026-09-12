@@ -1,0 +1,129 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 500px;
+	background-color: #ffffff;
+	border: 3px solid goldenrod;
+	/* padding: 10px; */
+	/* gap: 5px; */
+}
+
+.box1
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #2e935b;
+	height: 60px
+	/* height: 40px;
+	margin: 20px */
+}
+.box2
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #3498db;
+	height: 60px
+}
+.box3
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #9b59b6;
+	height: 60px
+}
+.box4
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #34495e;
+	height: 60px
+}
+.box5
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #f1c40f;
+	height: 60px;
+	/* align-self: center; */
+}
+.box6
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #d35400;
+	height: 60px;
+	/* align-self: flex-start; */
+}
+.box7
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #e74c3c;
+	height: 60px;
+	/* align-self: flex-start; */
+}
+.box8
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #bdc3c7;
+	height: 60px;
+	/* align-self: flex-start; */
+	color: white;
+}
+.box9
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #2ecc71;
+	height: 60px;
+	/* align-self: flex-start; */
+}
+.box10
+{
+	/* width: 50px; */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background-color: #16a085;
+	height: 60px;
+	/* align-self: flex-end; */
+}

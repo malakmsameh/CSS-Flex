@@ -1,0 +1,36 @@
+.container
+{
+	margin: 0;
+	/* padding: 20px; */
+	width: 100%;
+}
+
+h2{
+	margin-bottom: 10px;
+}
+
+.navbar
+{
+	/* background-color: rgb(237, 232, 232); */
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 20px;
+	border-radius: 7px;
+	border: 1px solid rgb(160, 159, 159);
+	box-shadow: 0px 4px 8px rgba(128, 128, 128, 0.4);
+	align-items: center;
+}
+.red
+{
+	width: 60px;
+    height: 40px;
+    background-color: red;
+    border-radius: 70%;
+}
+.links a
+{
+	text-decoration: none;
+	color: black;
+	padding: 50px;
+	/* gap:10px; */
+}

@@ -1,0 +1,29 @@
+.container
+{
+	display: flex;
+	height: 80px;
+}
+
+.coolguy
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	background-color: #1abc9c;
+	flex: 2;
+}
+
+.pizza
+{
+	background-color: #3498db;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+}
