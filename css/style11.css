@@ -1,0 +1,65 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+.container
+{
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 1200px;
+	gap: 15px;
+}
+
+/* this is a general class for all th items boexs
+and then i will make a sub class for each one of them if they nedd it */
+.all-box
+{
+	background-color: rgb(204, 202, 202);
+	/* padding: 20px; */
+	box-sizing: border-box;
+	flex: 1 1 15rem;
+	height: 180px;
+	display: flex;
+}
+
+/* big boxs for Items 1, 4, 5, 8, 10, 11 */
+.big-boexs
+{
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.items-box
+{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	padding: 10px;
+	background-color: #ddd;
+}
+
+/*small-boxses inside the big main ones*/
+.small-boxs
+{
+	flex: 1 1 45%; /* 2 items per row */
+	height: 70px;
+	display: flex;
+	align-items: left;
+	background-color: #ccc;
+}
+
+/*spicific size and layout for some of the sub boxes*/
+.vertical-stack
+{
+	flex-direction: column;
+}
+
+.horizontal-stack .small-boxs
+{
+	flex: 1;
+	height: auto;
+}
